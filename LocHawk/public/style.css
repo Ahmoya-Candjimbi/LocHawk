@@ -1,0 +1,324 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a1a1a, #2f3542);
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #ff4757, #ff6b81);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+/* Hero Section */
+.hero {
+    background: url('friends.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    animation: slideIn 2s ease-in-out;
+}
+
+.hero h2 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0 30px;
+}
+
+.cta-button {
+    background-color: #ff4757;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.cta-button:hover {
+    background-color: #ff6b81;
+    transform: scale(1.1);
+}
+
+/* Features Section */
+.features {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #2f3542, #1a1a1a);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.features h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-box {
+    background-color: #ff4757;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: calc(33.333% - 60px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.feature-box h3 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.feature-box p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Location Prompt Section */
+.location-prompt {
+    background: linear-gradient(135deg, #ff4757, #ff6b81);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.location-prompt h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.location-prompt p {
+    font-size: 1.5em;
+    margin: 0 0 30px;
+}
+
+.location-button {
+    background-color: white;
+    color: #ff4757;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.location-button:hover {
+    background-color: #f4f4f4;
+    transform: scale(1.1);
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1a1a, #2f3542);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.testimonials h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial-box {
+    background-color: #ff4757;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: calc(33.333% - 60px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-box p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.testimonial-box .author {
+    font-style: italic;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #2f3542, #1a1a1a);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.gallery h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-container img {
+    width: calc(25% - 20px);
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Final CTA Section */
+.cta-final {
+    background: linear-gradient(135deg, #ff4757, #ff6b81);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.cta-final h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.cta-final p {
+    font-size: 1.5em;
+    margin: 0 0 30px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-box, .testimonial-box, .gallery-container img {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-box, .testimonial-box, .gallery-container img {
+        width: 100%;
+    }
+
+    .hero h2 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .location-prompt h2 {
+        font-size: 2em;
+    }
+
+    .location-prompt p {
+        font-size: 1.2em;
+    }
+}
