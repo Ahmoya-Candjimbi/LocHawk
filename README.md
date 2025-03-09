@@ -38,6 +38,10 @@ cd LocHawk
 ```bash
 bash camhawk.sh
 ```
+LocHawk will automatically install all dependencies, so you don’t have to worry about missing anything!
+
+
+
 ## 🚀 How It Works
 1️⃣ LocHawk starts a JavaScript server & Serveo.net tunnel.
 
