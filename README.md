@@ -9,7 +9,7 @@ LocHawk is a powerful location phishing tool that instantly grabs IP addresses a
 This tool is for educational & legal security testing ONLY. Do NOT use it for illegal activities. The developer is not responsible for misuse. Use it wisely!
 
 
-## 🔥 Feature
+##  Feature
 
 ✅ Live Tracking – Instantly shows IP & location in the terminal.
 
@@ -21,7 +21,7 @@ This tool is for educational & legal security testing ONLY. Do NOT use it for il
 
 ✅ Works Anywhere – Supports Linux 
 
-## ⚙️ Installation
+##  Installation
 1. **Clone the repository**
 ```bash
 git clone https://github.com/s-r-e-e-r-a-j/LocHawk.git
@@ -42,7 +42,7 @@ LocHawk will automatically install all dependencies, so you don’t have to worr
 
 
 
-## 🚀 How It Works
+##  How It Works
 1️⃣ LocHawk starts a JavaScript server & Serveo.net tunnel.
 
 2️⃣ It generates a phishing link.
@@ -54,5 +54,5 @@ LocHawk will automatically install all dependencies, so you don’t have to worr
 5️⃣ Everything is saved in logs.txt.
 
 
-## 📜 License
+##  License
 Licensed under MIT – Modify & use responsibly.
