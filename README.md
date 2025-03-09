@@ -15,7 +15,7 @@ This tool is for educational & legal security testing ONLY. Do NOT use it for il
 
 ✅ Blazing Fast – Captures and logs data with zero delay.
 
-✅ Auto Setup – Installs everything needed, no hassle!
+✅ Auto Setup – Installs everything needed, no effort!
 
 ✅ No Port Forwarding Setup – Serveo.net handles it automatically.
 
