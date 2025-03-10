@@ -1,8 +1,8 @@
 ## LocHawk - Ultimate Location Phishing Tool
 
 #### Track Anyone’s Location in Seconds!
-LocHawk is a powerful location phishing tool that instantly grabs IP addresses and exact geolocation. It uses Bash for automation, JavaScript as the backend, and Serveo.net for port forwarding. Just send the phishing link, and when the target opens it, BOOM! – you get their location in real-time.
 
+LocHawk is a location phishing tool made for Linux distributions like Kali Linux and Parrot OS that instantly grabs IP addresses and exact geolocation. It uses Bash for automation, JavaScript as the backend, and Serveo.net for port forwarding. Just send the phishing link, and when the target opens it—BOOM! You get their location in real-time.
 
 
 ## ⚠️ Disclaimer
